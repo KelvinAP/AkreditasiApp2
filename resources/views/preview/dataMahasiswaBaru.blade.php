@@ -1,0 +1,107 @@
+@extends('preview/template')
+
+@section('content')
+<h3 style="text-align: center; margin-bottom: 30px"><b>Data Penerimaan Mahasiswa Baru</b></h3>
+            <table class="table table-center table-print">
+                    <thead>
+                      <tr>
+                        <th style="width: 10px" rowspan="2">Thn</th>
+                        <th colspan="3">Daya Tampung</th>
+                        <th colspan="3">Ikut Seleksi</th>
+                        <th colspan="3">Lulus Seleksi</th>
+                        <th colspan="3">Mendaftar Ulang</th>
+                      </tr>
+                      <tr>
+                        <th>Reguler</th>
+                        <th>Non-Reg</th>
+                        <th>Transfer</th>
+                        <th>Reguler</th>
+                        <th>Non-Reg</th>
+                        <th>Transfer</th>
+                        <th>Reguler</th>
+                        <th>Non-Reg</th>
+                        <th>Transfer</th>
+                        <th>Reguler</th>
+                        <th>Non-Reg</th>
+                        <th>Transfer</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>2013</td>
+                        <td>1500</td>
+                        <td>0</td>
+                        <td>50</td>
+                        <td>1500</td>
+                        <td>0</td>
+                        <td>50</td>
+                        <td>1500</td>
+                        <td>0</td>
+                        <td>50</td>
+                        <td>1500</td>
+                        <td>0</td>
+                        <td>50</td>
+                      <tr>
+                        <td>2014</td>
+                        <td>1500</td>
+                        <td>0</td>
+                        <td>50</td>
+                        <td>1500</td>
+                        <td>0</td>
+                        <td>50</td>
+                        <td>1500</td>
+                        <td>0</td>
+                        <td>50</td>
+                        <td>1500</td>
+                        <td>0</td>
+                        <td>50</td>
+                      </tr>
+                      <tr>
+                        <td>2015</td>
+                        <td>1500</td>
+                        <td>0</td>
+                        <td>50</td>
+                        <td>1500</td>
+                        <td>0</td>
+                        <td>50</td>
+                        <td>1500</td>
+                        <td>0</td>
+                        <td>50</td>
+                        <td>1500</td>
+                        <td>0</td>
+                        <td>50</td>
+                      </tr>
+                      <tr>
+                        <td>2016</td>
+                        <td>1500</td>
+                        <td>0</td>
+                        <td>50</td>
+                        <td>1500</td>
+                        <td>0</td>
+                        <td>50</td>
+                        <td>1500</td>
+                        <td>0</td>
+                        <td>50</td>
+                        <td>1500</td>
+                        <td>0</td>
+                        <td>50</td>
+                      </tr>
+                      <tr>
+                        <td>2017</td>
+                        <td>1500</td>
+                        <td>0</td>
+                        <td>50</td>
+                        <td>1500</td>
+                        <td>0</td>
+                        <td>50</td>
+                        <td>1500</td>
+                        <td>0</td>
+                        <td>50</td>
+                        <td>1500</td>
+                        <td>0</td>
+                        <td>50</td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+@endsection

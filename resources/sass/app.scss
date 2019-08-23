@@ -1,0 +1,77 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+// @import '~bootstrap/scss/bootstrap.scss';
+@import '~admin-lte/dist/css/adminlte.css';
+
+@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '~@fortawesome/fontawesome-free/scss/solid.scss';
+@import '~@fortawesome/fontawesome-free/scss/brands.scss';
+
+body {
+    padding-right: 0 !important;
+  }
+
+.nav-item.has-treeview > ul > li {
+    margin-left: 10px
+}
+
+.table > thead> tr > th{
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table-center > thead> tr > td, .table-center > tbody> tr > td{
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table.table-head-fixed thead tr:nth-child(2) th {
+  background-color: #fff;
+  border-bottom: none;
+  box-shadow: inset 0 1px 0 #dee2e6,inset 0 -1px 0 #dee2e6;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.table.table-head-fixed.table-dark thead tr:nth-child(2) th {
+  background-color: #212529;
+  box-shadow: inset 0 1px 0 #32383e,inset 0 -1px 0 #32383e;
+  // color: rgba(16, 59, 250, 0.1);
+}
+
+.table-icon{
+  font-size: 18px;
+  cursor : pointer;
+}
+
+.btn > .fas {
+  margin-right: 5px;
+}
+
+.logout{
+  margin-top: 1rem!important;
+  padding-top: 1rem!important;
+  border-top : 1px solid #dee2e6;
+}
+
+.dropdown-toggle::after {
+  border : none;
+}
+
+.form-check-group{
+    display: block;
+    margin-left: 15px;
+}
+
+
+.form-check-group>label.radio-inline{
+  font-weight: 400;
+}
+
